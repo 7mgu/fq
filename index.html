@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>映克APP</title>
-    <meta name="description" content="//映克，世界映在这一刻//">
+    <title>梵趣APP</title>
+    <meta name="description" content="//梵趣，最具年轻人互动交友平台//">
     <meta name="keywords" content="App应用安全下载，IOS/Android 应用发布分发管理">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -79,19 +79,19 @@
         var dir = 'qx';//文件夹名字
         var system = {
             '1': {
-                'name': '映克',
-                'version' : '1.0.2.6.2021030123',
-                'size': '23.22 MB',
-                'time': '2021-06-01 01:22:15',
+                'name': '梵趣',
+                'version' : 'V1.0.1.60914',
+                'size': '18.85 MB',
+                'time': '2021-06-10 01:56:15',
 		'desc': '',//APP程序描述
 		'showtext': '点击"安装"后，继续按"Home键"在桌面查看安装进度',
 		'guide': '<a href="guide.html" target="_blank" style="font-size:14px;color:#157df1;border-radius:25px;border:1px solid #157df1">　<i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;"未受信任的企业级开发者"的解决办法　</a>',
             },
             '2': {
-                'name': '映克',
-                'version' : '1.0.2.6.2021030123',
-                'size': '21.25 MB',
-                'time': '2021-03-02 06:35:21',
+                'name': '梵趣',
+                'version' : 'V1.0.1（Build 60914）',
+                'size': '15.05 MB',
+                'time': '2021-06-10 02:50:32',
 		'desc': '',//APP程序描述
 		'guide': '',
             },
@@ -169,23 +169,23 @@
 		winRef.location = "guide.html";
 	});
 	
-	$('#xinren_btn').attr("href",'https://bt.chuang1b.com:18881/down/5zeIuwh3e0hA');  //embedded.mobileprovision 点击按钮方式安装描述文件
+	$('#xinren_btn').attr("href",'https://bt.chuang1b.com:18881/down/i7eFTbzJa1ml');  //embedded.mobileprovision 点击按钮方式安装描述文件
 	
         $('#download_btn').on('click',function(){
             var winRef = window.open("","_self") ;
             if (browser.versions.mobile && browser.versions.ios) {
 		    $('#download_btn').hide();
 		    $('#modal').show();
-		    winRef.location = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/hRlK3PEVZGHh";   //苹果APP_安装地址
+		    winRef.location = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/PWd1DygJqTFZ";   //苹果APP_安装地址
 		    
 	setTimeout(function(){
 	    if(confirm){
 		    $('#xinren_btn').show();
-		    winRef.location = "https://bt.chuang1b.com:18881/down/5zeIuwh3e0hA";   //embedded.mobileprovision 自动安装描述文件
+		    winRef.location = "https://bt.chuang1b.com:18881/down/i7eFTbzJa1ml";   //embedded.mobileprovision 自动安装描述文件
 	    }
 	},4500)
 	    } else{
-		    winRef.location = "https://bt.chuang1b.com:18881/down/SBIjb32Cvcdp";   //安卓APP_下载地址
+		    winRef.location = "https://bt.chuang1b.com:18881/down/7HM7WA7BfklS";   //安卓APP_下载地址
 	    }
 		$('#xinren_btn').show();
 	})
