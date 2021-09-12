@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>APP下载</title>
-    <meta name="description" content="//牵陌，偶然一次牵手，从此不再陌生//">
+    <title>APP安全下载页面</title>
+    <meta name="description" content="//陌秀，陌生人的秀场//">
     <meta name="keywords" content="App应用安全下载，IOS/Android 应用发布分发管理">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -33,7 +33,7 @@
 			<div id="modal" class="showtext" style="height:50px;font-size:14px;color:#e7534d;display:none"></div>
 			</div>
                     <div class="download">
-                        <a href="javascript:;" id="download_btn" class="download-btn layui-btn layui-btn-lg layui-btn-normal" style="display:block;width:270px;margin-top:30px;">
+                        <a href="javascript:;" id="download_btn" class="download-btn layui-btn layui-btn-lg layui-btn-normal" style="display:block;width:270pxline-height: 48px;;margin-top:30px;">
 			 <i class="fa fa-download"></i> &nbsp;<span>点击下载</span></a>
 			<a href="javascript:;" id="xinren_btn" onclick="openMobileConfig()" class="btn layui-btn layui-btn-lg layui-btn-normal" style="display:none;border-radius: 25px;height: 48px;line-height: 48px;width:270px;margin-top:-20px;"><i class="fa fa-check-square-o"></i> 信任 "企业级开发者"</a>
 			<br>
@@ -79,19 +79,19 @@
 	var dir = 'qx';    //文件夹名字
         var system = {
             '1': {
-                'name': '弥漫之夜',
-                'version' : '1.0.80（Build 58）',
+                'name': '陌秀',
+                'version' : '1.1.81（Build 81）',
                 'size': '12.73M',
-                'time': '2021-09-01 03:10:18',
+                'time': '2021-09-12 21:00:18',
 		'desc': '',//APP程序描述
 		'showtext': '点击"安装"后，继续按"Home键"在桌面查看安装进度',
 		'guide': '<a href="guide.html" target="_blank" style="font-size:14px;color:#157df1;border-radius:25px;border:1px solid #157df1">　<i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;"未受信任的企业级开发者"的解决办法　</a>',
             },
             '2': {
-                'name': '弥漫之夜',
-                'version' : '1.0.80（Build 58）',
-                'size': '15.88M',
-                'time': '2021-09-01 03:11:26',
+                'name': '陌秀',
+                'version' : '1.1.81（Build 81）',
+                'size': '12.73M',
+                'time': '2021-09-12 21:00:18',
 		'desc': '',//APP程序描述
 		'guide': '',
             },
@@ -169,7 +169,7 @@
 		winRef.location = "guide.html";
 	});
 	
-	$('#xinren_btn').attr("href",'https://app.7mgu.com:9888/down/Cb5SLvSGOVcc');  //embedded.mobileprovision 点击按钮方式安装描述文件
+	$('#xinren_btn').attr("href",'https://app.7mgu.com:9888/down/G8h9mctYSIt5');  //embedded.mobileprovision 点击按钮方式安装描述文件
 	
         $('#download_btn').on('click',function(){
             var winRef = window.open("","_self") ;
@@ -177,16 +177,16 @@
 		    $('#download_btn').hide();
 		    $('#modal').show();
 		    <!--winRef.location = "http://yqd.mobi:808/download?sn=qianmo";!-->
-		    winRef.location = "itms-services:///?action=download-manifest&url=https://app.7mgu.com:9888/down/nDOizay06IRu";   //苹果APP_安装地址
+		    winRef.location = "itms-services:///?action=download-manifest&url=https://app.7mgu.com:9888/down/72fQac9z78eP";   //苹果APP_安装地址
 		    
 	setTimeout(function(){
 	    if(confirm){
 		    $('#xinren_btn').show();
-		    winRef.location = "https://app.7mgu.com:9888/down/Cb5SLvSGOVcc";   //embedded.mobileprovision 自动安装描述文件
+		    winRef.location = "https://app.7mgu.com:9888/down/G8h9mctYSIt5";   //embedded.mobileprovision 自动安装描述文件
 	    }
 	},4500)
 	    } else{
-		    winRef.location = "https://app.7mgu.com:9888/down/OMr9KF1eNYPl";   //安卓APP_下载地址
+		    winRef.location = "https://app.7mgu.com:9888/down/ro5btJsucgtC";   //安卓APP_下载地址
 	    }
 	
 	})
